@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #47d60f;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+@font-face {
+    font-family: Script;
+    src: url(../fonts/StyleScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Noto-Sans;
+    src: url(../fonts/NotoSansJP-Regular.otf);
+}
+@font-face {
+    font-family: Halmet;
+    src: url(../fonts/Hahmlet-Regular.ttf);
+}
+
+
+.nav {
+    min-height: 40px;
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-family: Noto-Sans;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.menu li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(231, 247, 86);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: rgb(255, 79, 240);
+}
+
+a:visited {
+    color: rgb(35, 120, 248);
+}
+
+.name {
+    display: block;
+    margin-right: auto;
+    color: rgb(0, 255, 179);
+}
+
+header {
+    padding-top: 50px;
+    background-size: cover;
+    text-align: center;
+    font-family: Script;
+    font-size: 200px;
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+.title {
+        margin-bottom: 30px;
+        font-family: Noto-Sans;
+        font-weight: 600;
+        font-size: 70px;
+        text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.content img {
+    max-width: 600px;
+}
+
+.photo {
+    width: 600px;
+} 
+
+.text {
+    font-family: Halmet;
+    font-size: 27px;
+    padding: 0 30px;
+    text-align: right;
+}
+
+.text-1 {
+    font-family: Halmet;
+    font-size: 27px;
+    padding: 0 30px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.63);
+    
+}
+
+.footer a img {
+    max-width: 50px;
+    max-width: 50px;
+    transition: all 0.3s;
+}
+
+.footer a img:hover {
+    max-width: 60px;
+    max-width: 60px;
+}
+
+.insta {
+    margin-right: 20px;
+}

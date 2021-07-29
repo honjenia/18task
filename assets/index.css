@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/*INDEX.HTML*/
+
+body {
+    background-color: #1709dd;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+@font-face {
+    font-family: Noto-Sans;
+    src: url(../fonts/NotoSansJP-Regular.otf);
+}
+@font-face {
+    font-family: Halmet;
+    src: url(../fonts/Hahmlet-Regular.ttf);
+}
+
+.nav {
+    min-height: 40px;
+    background-color: rgba(0, 0, 0, 0.63);
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-family: Noto-Sans;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.menu li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(231, 247, 86);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: rgb(255, 79, 240);
+}
+
+a:visited {
+    color: rgb(35, 120, 248);
+}
+
+.name {
+    display: block;
+    margin-right: auto;
+    color: rgb(0, 255, 179);
+}
+
+header {
+    padding-top: 50px;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    transition:all .5s;
+    margin-bottom: 150px;
+}
+header img:hover {
+    border: 2.5px solid rgb(0, 0, 0);
+    transform: scale(1.2) rotate(5deg);
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: Halmet;
+}
+
+.card {
+    font-size: 60px;
+    text-align: left;
+    background-color: rgba(43, 0, 78, 0.425);
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(231, 247, 86);
+    line-height: 73px;
+    border-bottom: solid rgba(39, 0, 71, 0.521) ;
+    border-right: solid rgba(43, 0, 78, 0.425)
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.63);
+    
+}
+
+.footer a img {
+    max-width: 50px;
+    max-width: 50px;
+    transition: all 0.3s;
+}
+
+.footer a img:hover {
+    max-width: 60px;
+    max-width: 60px;
+}
+
+.insta {
+    margin-right: 20px;
+}
+
